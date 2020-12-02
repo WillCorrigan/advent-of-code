@@ -12,11 +12,7 @@ for arr, password in content:
     first_index = pw[int(amount[0])-1]
     second_index = pw[int(amount[1])-1]
 
-
     if first_index != second_index and (first_index == letter or second_index == letter) :
         correct_passwords += 1
-
-
-
 
 print(correct_passwords)
