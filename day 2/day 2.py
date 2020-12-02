@@ -1,5 +1,3 @@
-import re
-
 filename = "C:\\Users\\wcorr\\Desktop\\Advent of Code\\day 2\\data.txt"
 with open(filename) as f:
     content = f.readlines()
